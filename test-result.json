@@ -1,0 +1,99 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/tcs/Desktop/Test-Runner/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "chromium",
+        "testDir": "C:/Users/tcs/Desktop/Test-Runner",
+        "testIgnore": [],
+        "testMatch": [
+          "crm001.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "C:/Users/tcs/Desktop/Test-Runner",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "workers": 4,
+    "_launch": []
+  },
+  "suites": [
+    {
+      "title": "pageObjectsTest\\crm001.test.ts",
+      "file": "pageObjectsTest/crm001.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "ms001",
+          "file": "pageObjectsTest/crm001.test.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Login positive",
+              "ok": true,
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 11422,
+                      "stdout": [
+                        {
+                          "text": "https://letcode.in/\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "pageObjectsTest/crm001.test.ts",
+              "line": 27,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
