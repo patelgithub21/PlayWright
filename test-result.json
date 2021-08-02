@@ -32,6 +32,10 @@
         {
           "outputFile": "test-result.json"
         }
+      ],
+      [
+        "C:\\Users\\tcs\\Desktop\\Test-Runner\\node_modules\\experimental-allure-playwright\\dist\\index.js",
+        null
       ]
     ],
     "reportSlowTests": {
@@ -72,7 +76,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 11422,
+                      "duration": 11131,
                       "stdout": [
                         {
                           "text": "https://letcode.in/\n"
@@ -87,7 +91,7 @@
                 }
               ],
               "file": "pageObjectsTest/crm001.test.ts",
-              "line": 27,
+              "line": 28,
               "column": 9
             }
           ]

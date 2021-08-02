@@ -13,6 +13,7 @@ test.describe("ms001",() => {
     let login: LoginPage;
     let commonFunction: CommonFunction;
 
+    // can be moved to fixtures
     test.beforeAll(async ({browser}) => {
         page = await browser.newPage();
         header= new HeaderPage(page);
